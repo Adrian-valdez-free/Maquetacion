@@ -48,8 +48,8 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 5px;
   align-content: stretch; 
+  gap: 5px;
 }
 nav a{
   background-color: #ffff;
@@ -68,6 +68,18 @@ nav a:hover{
   flex-basis: auto;
   flex-grow: 1;
   background-color: #ffff;
+}
+.boxM{
+  display: none;
+  padding: 0;
+  margin: 0;
+  width: 0%;
+}
+.col{
+  display: none;
+  padding: 0;
+  margin: 0;
+  width: 0%;
 }
 .hero{
   text-align: center;
@@ -160,7 +172,6 @@ footer{
   align-items: center;
   justify-content: center;
   gap: 35px
-
 }
 .net i{
   font-size: 25px;
@@ -176,13 +187,30 @@ footer{
 width: 100%;
 }
  nav {
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 5px;
+  margin: 0;
 }
 nav a{
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 32%;
+  padding: 0;
+  margin: 0;
+  height:60px;
+}
+.boxM{
+  display: inline;
+  width: 32%;
+  height:60px;
+  padding: 20px 30px;
+  background-color: #ffff;
 }
 .box{
-  width: 100%;
+  display: none;
 }
 .popular{
   align-items:center;
